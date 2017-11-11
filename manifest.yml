@@ -1,0 +1,7 @@
+---
+applications:
+- name: SysInspect
+  memory: 64M
+  host: sysinspect
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git
+  command: sysinspect
